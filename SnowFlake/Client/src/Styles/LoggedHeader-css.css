@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.DesktopHeader{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    
+}
+
+.RightSec{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    position: relative;
+}
+
+.LoggedIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.SearchInp{
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    background-color: #3ec2fa48;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    z-index: 10;
+}
+
+.SearchInp:focus{
+    background-color: #3ec2fa;
+}
+
+.SearchInp::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+.LoggedNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.MiddleSec{
+    display: flex;
+    align-items: center;
+}
+
+.profilePic{
+    border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      width: 35px;
+      height: 35px;   
+      margin: 5px 
+}
+
+
+.DesktopUl{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 8px;
+}
+
+.DesktopUl li{
+    margin-left: 15px;
+}
+
+.InnerUl{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.HomeSpan{
+    position: absolute;
+    font-size: 12px;
+    top: 35px;
+    left: -7px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    display: none;
+}
+
+.SettingSpan{
+    position: absolute;
+    font-size: 12px;
+    top: 35px;
+    left: -13px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    display: none;
+}
+
+.LogoutSpan{
+    position: absolute;
+    font-size: 12px;
+    top: 35px;
+    left: -10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 4px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    display: none;
+    
+}
+
+.Profile{
+    font-family: 'Poppins', sans-serif;
+  color: #606266;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  -ms-transition: .3s all;
+  -o-transition: .3s all;
+  background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-right: 10px;
+}
+
+.Profile:hover{
+    background-color: rgb(201, 198, 198);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: white;
+}
+
+.profilePic{
+    margin-left: -3px;
+    padding-bottom: 3px;
+}
+
+.InnerUl a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #606266;
+    font-size: 25px;
+    margin-right: 35px;
+    position: relative;
+    
+}
+
+.InnerUl a:nth-child(1):hover .HomeSpan{
+    display: block;
+    
+}
+
+.InnerUl a:nth-child(1):hover .SettingSpan{
+    display: block;
+    
+}
+
+.InnerUl a:nth-child(1):hover .LogoutSpan{
+    display: block;
+    
+}
+
+
+.DesktopUl a{
+    text-decoration: none;
+
+}
+
+.DesktopUl .active{
+    color: #3EC2FA;
+}
+
+.hr {
+    border-left: 1px solid #3EC2FA;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .MiddleSec i{
+      margin: 5px;
+      font-size: 20px;
+      color: #3EC2FA;
+      background-color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      filter: drop-shadow(0 0 .1rem rgb(107, 107, 107));
+      -webkit-filter: drop-shadow(0 0 .1rem rgb(107, 107, 107));
+      cursor: pointer;
+}
+
+#serc{
+    display: none;
+}
+
+@media (max-width: 884px){
+    .DesktopUl{
+        display: none;
+    }
+
+    .MobileHeader{
+        background-color: white;
+        width: 100%;
+        height: 340px;
+        -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+        transition: .3s linear;
+        -webkit-transition: .3s linear;
+        -moz-transition: .3s linear;
+        -ms-transition: .3s linear;
+        -o-transition: .3s linear;
+    }
+
+    .MobileUl{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 85px;
+        list-style: none;
+        
+    }
+
+    .hr{
+        margin-top: 15px;
+        height: 0;
+        width: 200px;
+        border-bottom: 1px solid #3EC2FA;
+        margin-right: 0;
+    }
+
+    .MobileInnerUl{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LoggedNav{
+        padding: 10px;
+    }
+
+    .MobileUl li{
+        margin-top: 10px;
+    }
+
+    .MobileInnerUl a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #606266;
+        font-size: 25px;
+        margin-right: 35px;
+        position: relative;
+        left: 35px;    
+    }
+    .Profile{
+        position: relative;
+        left: 35px;    
+    }
+    .MobileUl a{
+        text-decoration: none;
+    
+    }
+
+  
+    .MobileUl .active{
+        color: #3EC2FA;
+    }
+    
+    .MobileSpan{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:  442px){
+    #serc{
+        display: block;
+    }
+
+    .SearchInp{
+        position: absolute;
+        top: 60px;
+        width: 180px;
+    }
+
+    .MiddleSec i{
+        font-size: 13px;
+    }
+
+    .LoggedIcon{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .RightSec{
+        margin-left: 0px;
+        margin-right: 2px;
+    }
+
+    .SearchNone{
+        display: none;
+        font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    background-color: #3ec2fa48;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    }
+    
+}
+
+
+@media (max-width:  278px){
+
+    .SearchInp{
+        left: 40%;
+    }
+}
+
+@media (max-width:  227px){
+
+    .SearchInp{
+        left: 0%;
+    }
+}
+
+@keyframes UlAnime {
+    from{
+        opacity: .3;
+    }
+    to{
+        opacity: 1;
+    }
+}

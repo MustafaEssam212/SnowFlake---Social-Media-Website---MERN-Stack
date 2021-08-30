@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.ProfileFoll2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.ProfileFoll2 ul li{
+    padding: 0px 20px 0px 20px;
+}
+
+.ProfileFoll2 ul a {
+    text-decoration: none;
+}
+
+hr{
+    margin: 0px 25px 15px 25px;
+}
+
+.Message{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: gray;
+    padding: 25px;
+}
+
+.follow{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.follow i{
+    font-size: 17px;
+    padding: 0;
+    color: white;
+}
+
+.follow i:hover{
+    color: white;
+}
+
+.None{
+    display: none;
+}
+
+.Block{
+    display: block;
+}

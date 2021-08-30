@@ -1,0 +1,36 @@
+
+.HomeContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conta{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding: 10px 10px;
+    color: #00b3ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(146, 146, 146);
+    bottom: 25px;
+    left: 55px;
+}
+
+.NoConta{
+    display: none;
+}
+
+@media (max-width: 890px) {
+    .HomeContent{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .MyContacts{
+        display: none;
+    }
+}

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Varela+Round&display=swap');
+
+
+.imageIcon{
+    height: 100px;
+    width: 100px;
+    animation: iconAnime 5s linear forwards infinite;
+    -webkit-animation: iconAnime 5s linear forwards infinite;
+
+}
+
+.center{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;  
+    z-index: -100;
+}
+
+@keyframes iconAnime {
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    25%{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+    
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    
+    75%{
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+}
+    
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+
+@keyframes sideAnime1{
+    0%{
+        right: -645px;
+    }
+    25%{
+        right: -483px;
+    }
+    50%{
+        right: -321px;
+    }
+    75%{
+        right: -159px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+@keyframes sideAnime2{
+    0%{
+        left: -645px;
+    }
+    25%{
+        left: -483px;
+    }
+    50%{
+        left: -321px;
+    }
+    75%{
+        left: -159px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+.leftSide{
+    position: absolute;
+    height: 100vh;
+    background-image: linear-gradient(rgb(10, 96, 255), rgb(119, 167, 255));
+    width: 50%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+}
+
+.rigthSide{
+    position: absolute;
+    height: 100vh;
+    background-image: linear-gradient(rgb(10, 96, 255), rgb(119, 167, 255));
+    width: 50%;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    overflow-y: hidden;
+    
+}
+
+ .socialImage{
+    height: 100%;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.innerDiv p{
+    margin-top: 150px;
+    color: white;
+    z-index: 1700;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.whiteIcon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    animation: iconAnime 5s linear forwards infinite;
+    -webkit-animation: iconAnime 5s linear forwards infinite;
+
+}
+
+
+
+.introHeader{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    z-index: 3000;
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+}
+
+@keyframes headerAnime{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: .3;
+    }
+    50%{
+        opacity: .6;
+    }
+    75%{
+        opacity: .9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.Btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Btns a{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 5px;
+    transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    text-decoration: none;
+}
+
+.Btns a:nth-child(1){
+    border: 2px solid white;
+    padding: 10px 65px;
+    background-color: transparent;
+}
+
+.Btns a:nth-child(1):hover{
+    background-color: rgb(255, 255, 255);
+    color: #1B6CFF;
+}
+
+.Btns a:nth-child(2){
+    border: 2px solid white;
+    padding: 10px 70px;
+    background-color: white;
+    color: #1B6CFF;
+}
+
+.Btns a:nth-child(2):hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+.contentDiv{
+    position: absolute;
+    top: 0;
+    display: flex;
+    z-index: 2500;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.divOne{
+    align-self: center;
+    margin-left: 80px;
+}
+
+.introPar{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+@media(max-width: 880px){
+    .contentDiv{
+        justify-content: center;
+    }
+    .divOne{
+        margin-top: 100px;
+        margin-left: 0;
+    }
+ 
+}

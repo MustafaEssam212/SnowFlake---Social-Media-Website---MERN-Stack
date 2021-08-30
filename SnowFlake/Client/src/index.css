@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  overflow-x: hidden;
+}
+
+
+body::-webkit-scrollbar{
+  width: 12px;
+}
+
+
+body::-webkit-scrollbar-thumb{
+ background-color: #b6b6b6e8;
+ border-radius: 15px;
+ background-clip: padding-box;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}

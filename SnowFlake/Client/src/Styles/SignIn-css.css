@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+.SignInContainer{
+    background-image: linear-gradient(rgb(10, 96, 255), rgb(119, 167, 255));
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+.form-container2{
+    width: 700px;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+ }
+
+ .form-container2 form{
+    padding: 50px;
+}
+
+.form-container2 input{
+    margin: 25px 0px;
+    font-family: 'Spartan', sans-serif; 
+}
+
+.form-container2 input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(214, 214, 214);
+}
+
+
+.whiteIcone{
+    width: 40px;
+    height: 40px;
+}
+
+.topHead{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.topHead h1{
+    text-align: center;
+}
+
+.f-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check label{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.836);
+    padding-left: 7px;
+}
+
+.alerta{
+    display: none;
+}

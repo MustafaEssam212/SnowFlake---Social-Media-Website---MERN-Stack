@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.FollowersContent{
+    height: 82.5vh;
+   top: 15px;
+    position: sticky;
+    width: 250px;
+    background-color: transparent;
+    margin: 15px;
+    background-color: white;
+    overflow-x: hidden;
+    box-shadow: 0px 1px 3px rgba(128, 128, 128, 0.753);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.FollowersContent::-webkit-scrollbar{
+    width: 8px;
+}
+
+
+.FollowersContent::-webkit-scrollbar-thumb{
+    background-color: #F0F2F5;
+    
+}
+
+.FollowersContent:hover::-webkit-scrollbar-thumb{
+    background-color: #BCC0C4;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 35px;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+    
+}
+
+.contact a:hover{
+    color: #3EC2FA
+    
+}
+.contact{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.Spinner2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.Allerrt{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.Allerrt i{
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+
+
+
+@media (max-width: 890px) {
+  .FollowersContent{
+      
+  }
+}
